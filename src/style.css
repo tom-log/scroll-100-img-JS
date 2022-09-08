@@ -1,0 +1,55 @@
+.img-scroll-1 {
+  width: 80%;
+  margin: 0 auto 200px;
+}
+.img-scroll-2 {
+  width: 50%;
+  margin: 0 auto 200px;
+}
+.img-scroll-3 {
+  padding: 0 20%;
+  margin: 0 auto 200px;
+}
+
+body {
+  margin: 0;
+  padding: 50px 0 0;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 150px;
+  font-size: 36px;
+}
+strong {
+  font-size: 150%;
+}
+p {
+  margin-bottom: 200px;
+  font-size: 30px;
+  text-align: center;
+}
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.line-1{
+    position: relative;
+    width: 100%;
+    margin: 0 auto 15px;
+}
+
+/* Animação */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
